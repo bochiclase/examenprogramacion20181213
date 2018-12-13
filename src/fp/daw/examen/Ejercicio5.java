@@ -1,5 +1,8 @@
 package fp.daw.examen;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
 	/* 
@@ -17,6 +20,27 @@ public class Ejercicio5 {
 	
 	public static void main(String[] args) {
 		
+		 Random r = new Random();
+		int  aleatorio= r.nextInt(201)+100;
+		int cliente;
+		int cuenta =0;
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Escribe un numero haber si es el que yo he pensado");
+		
+		cliente = s.nextInt();
+		
+		do {
+		if (cliente == aleatorio) {
+			
+			System.out.println("ENORABUENA HAS HACERTADO. Has escrito" + cuenta + "veces" );
+		}
+		else {
+			System.out.println("No era correcto, el numero correcto es " + aleatorio + " vuelve a empezar poneido el número aqui");
+			cliente = s.nextInt();
+			cuenta++;
+		}
+		}while(cliente != aleatorio);
 
 	}
 
