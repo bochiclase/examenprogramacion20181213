@@ -18,8 +18,18 @@ public class Ejercicio3 {
 	 *  
 	 */
 	
-	public static ...
-	
+	public static int [] [] stringToArray2D (String tiempo){
+		
+		
+		for (int i =0; i<tiempo.length(); i=+2) {
+			for (int j=1; i<tiempo.length(); i=+2) {
+				int [] [] array = new int [i] [j];
+				
+			}
+	 
+		}
+
+	}
 	/*
 	 * 1 punto
 	 * 
@@ -31,7 +41,7 @@ public class Ejercicio3 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		stringToArray2D("Ferrari");
 	}
 
 }

@@ -21,7 +21,7 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 		
 		 Random r = new Random();
-		int  aleatorio= r.nextInt(201)+100;
+		int  aleatorio= r.nextInt(201)-100;
 		int cliente;
 		int cuenta =0;
 		
@@ -36,7 +36,7 @@ public class Ejercicio5 {
 			System.out.println("ENORABUENA HAS HACERTADO. Has escrito" + cuenta + "veces" );
 		}
 		else {
-			System.out.println("No era correcto, el numero correcto es " + aleatorio + " vuelve a empezar poneido el número aqui");
+			System.out.println("No era correcto, el numero correcto es" + aleatorio + "vuelve a empezar poneido el número aqui");
 			cliente = s.nextInt();
 			cuenta++;
 		}

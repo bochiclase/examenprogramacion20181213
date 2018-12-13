@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio2 {
 
 	/* 
@@ -13,7 +15,22 @@ public class Ejercicio2 {
 	 *  
 	 */
 	
-	public static ...
+	public static int busquedaBinaria (int [] vector, int entero) {
+		
+		
+		Random r = new Random();
+		int [] aleatorio;
+		
+		for (int i =0; i<entero;i++) {
+		 aleatorio [i] = r.nextInt(13);
+		}
+		
+		
+		
+		
+		
+		
+	}
 	
 	
 	/*
@@ -31,8 +48,8 @@ public class Ejercicio2 {
 	 * 
 	 */
 	
-	public static void main(String[] args) {
-		
+public static void main(String[] args) {
+			
 		
 	}
 

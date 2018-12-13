@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio4 {
 
 	/* 
@@ -17,8 +19,18 @@ public class Ejercicio4 {
 	 * 
 	 */
 	
-	public static ...
-	
+	public static int [] numSecuencias (int [] vector) {
+		Random r = new Random();
+		int [] casa = new int []; 
+		for (int i=0; i<vector.length;i++) {
+		if (vector [i] == casa []) {
+			
+		}
+		ç
+		
+		
+		
+	}
 	/*
 	 * 1 punto
 	 * 
@@ -31,6 +43,9 @@ public class Ejercicio4 {
 	 */
 	
 	public static void main(String[] args) {
+		Random r = new Random();
+		int array [] = new int [numSecuencias(r.nextInt( -101) + 100)];
+
 		
 
 	}

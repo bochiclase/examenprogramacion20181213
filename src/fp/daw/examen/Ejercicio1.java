@@ -14,7 +14,26 @@ public class Ejercicio1 {
 	 * donde num1, num2, num3, ..., numN son los números almacenados en el vector.
 	 */
 	
-	public static ...
+	public static int [] mostrarVector (int [] vector) {
+		
+		
+		for (int i=1; i<vector.length; i++) {
+			
+			return vector;
+			
+		
+		System.out.println("num"+ vector[i]+", ");
+		}
+	}
+	
+public static void main(String[] args) {
+			mostrarVector (5);
+			
+			
+		
+	}
+	
+	
 	
 	/* 
 	 * 1 punto
@@ -27,6 +46,16 @@ public class Ejercicio1 {
 	 * donde 'c1', 'c2', 'c3', ...., 'cN' son los caracteres almacenados en el vector.
 	 */
 
-	public static ...
+	public static int [] mostrarVector (int veces) {
+		
+		int [] vector = new int [veces];
+		for(int i =0; i<veces; i++) {
+			System.out.println("c"+ vector [i]);
+		}
+		
+		
+		
+	}
+	
 	
 }
